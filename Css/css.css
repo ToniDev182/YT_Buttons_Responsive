@@ -63,6 +63,7 @@ body {
     margin: 20px auto;
     max-width: 640px;
     min-width: 320px;
+    border-radius: 15px;
 }
 
 /* Botones personalizados */
@@ -184,7 +185,7 @@ footer {
         margin-top: 0em;
     }
 
-    #player{
+    #player {
 
         width: 200px;
         height: 200px;
