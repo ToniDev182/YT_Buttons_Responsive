@@ -1,0 +1,195 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(244, 225, 242);
+}
+
+.lofi {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #423c3a;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-weight: 300;
+    display: inline-block;
+
+}
+
+.navbar {
+    background-color: #865050b7;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('../assets/fondo/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 0;
+}
+
+/* Estilo del reproductor */
+#player {
+    margin: 20px auto;
+    max-width: 640px;
+    min-width: 320px;
+}
+
+/* Botones personalizados */
+.button-container {
+    margin-top: 20px;
+}
+
+.custom-button {
+
+    background: linear-gradient(45deg, #39251e, #934e42);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.merch {
+
+    width: 200px;
+    height: 162px;
+    margin-top: 10px;
+    border: 1px solid #D8A28E;
+    border-radius: 10px;
+}
+
+#vent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.content-area {
+    display: flex;
+    margin-top: 1em;
+}
+
+.main-content {
+    flex-grow: 3;
+    margin-top: 1em;
+    background-color: #865050b3;
+    padding: 10px;
+
+}
+
+.sidebar {
+    flex-grow: 1;
+    margin-top: 1em;
+    background-color: #EFBAAE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album1 {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.titulo {
+    font-family: sans-serif;
+    color: #423c41;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    /* Asegura que ocupe el ancho de su contenedor */
+
+}
+
+.coment {
+    font-family: 'Courier New', Courier, monospace;
+    color: #777;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 10px;
+
+
+}
+
+
+/* Footer */
+footer {
+    margin: 0;
+    padding: 50px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #1e1c1d;
+    background-color: #917c8e;
+    font-family: Arial, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .content-area {
+        flex-direction: column;
+
+
+    }
+
+    .sidebar {
+        margin-top: 0em;
+    }
+
+    .main-content {
+        margin-top: 0em;
+    }
+
+    #player{
+
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+/* Estilos generales */
